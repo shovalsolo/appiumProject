@@ -1,0 +1,14 @@
+Connect phone with WiFi to PC
+
+1. Connect phone with cable to PC
+2. Check that both of them are connected with the same wifi
+3. On CMD run the command - adb devices 
+4. Get the uidd
+5. Get you mobile ip from settings->about phone-status
+6. Run the following command - adb tcpip 5555 and disconnect the cable
+7. Run the following command - adb connect "your IP"
+8. Run the following command - adb devices to check your device is connected via WiFi 
+9. Run a test to see that it is working
+10. For any issues kill the server with the following command- adb kill-server and connect again - adb connect "your IP"
+11. To connect again use the following command- adb connect 192.168.0.100:5555
+12. Run a test to verify
