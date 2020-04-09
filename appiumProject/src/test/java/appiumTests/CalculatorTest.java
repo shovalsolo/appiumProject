@@ -1,6 +1,6 @@
 /**
  * @author Solomon
- * This is a test on a android mobile calculator
+ * This is a test on a android mobile calculator - the mobile phone needs to be connected to the PC
  * Need to set desired capabilities with the mobile device info:
  *
  * 1. device name
