@@ -1,7 +1,7 @@
 /**
  * @author Solomon
  * This is a test on a android mobile calculator - the mobile phone needs to be connected to the PC
- * to get the uidd need to connect the phone and rung in cms the following command
+ * to get the uidd need to connect the phone and run in cmd the following command
  * adb devices
  * 
  * Need to set desired capabilities with the mobile device info:
