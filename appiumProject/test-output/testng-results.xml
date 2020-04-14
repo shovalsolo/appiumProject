@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=======Login Started=======]]>
+    </line>
+    <line>
+      <![CDATA[=======Login Ended=======]]>
+    </line>
+    <line>
+      <![CDATA[=======tearDown Started=======]]>
+    </line>
+    <line>
+      <![CDATA[=======tearDown Ended=======]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29201" started-at="2020-04-14T17:00:54 EDT" finished-at="2020-04-14T17:01:24 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29201" started-at="2020-04-14T17:00:54 EDT" finished-at="2020-04-14T17:01:24 EDT">
+      <class name="appiumTests.ChromeWebTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:appiumTests.ChromeWebTest@1f57539]" name="setUp" is-config="true" duration-ms="2885" started-at="2020-04-14T17:00:54 EDT" finished-at="2020-04-14T17:00:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testUntitled()[pri:0, instance:appiumTests.ChromeWebTest@1f57539]" name="testUntitled" duration-ms="21240" started-at="2020-04-14T17:00:57 EDT" finished-at="2020-04-14T17:01:19 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[=======Login Started=======]]>
+            </line>
+            <line>
+              <![CDATA[=======Login Ended=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUntitled -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:appiumTests.ChromeWebTest@1f57539]" name="tearDown" is-config="true" duration-ms="5018" started-at="2020-04-14T17:01:19 EDT" finished-at="2020-04-14T17:01:24 EDT">
+          <reporter-output>
+            <line>
+              <![CDATA[=======tearDown Started=======]]>
+            </line>
+            <line>
+              <![CDATA[=======tearDown Ended=======]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- appiumTests.ChromeWebTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
