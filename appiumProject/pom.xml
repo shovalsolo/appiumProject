@@ -23,8 +23,8 @@
 			<artifactId>java-client</artifactId>
 			<version>7.3.0</version>
 		</dependency>
-
-
+		
+		
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
