@@ -17,7 +17,7 @@
  * http://127.0.0.1:4723/wd/hub
  */
 
-package appiumTests;
+package appiumAndroidTests;
 import java.net.URL;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
