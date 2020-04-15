@@ -37,12 +37,11 @@ public class SafariWebTest {
 			URL url = new URL("http://127.0.0.1:4723/wd/hub");
 			IOSDriver driver = new IOSDriver(url , cap);				//Using IOSDriver
 			
-		} catch (MalformedURLException e) {
+		} catch (Exception e) {
 			System.out.println("Failed to pass DesiredCapabilities application did not started");
 			System.out.println("Cause"+ e.getCause());
 			System.out.println("Message"+ e.getMessage());
 			e.printStackTrace();
 		}
 	}
-
 }
