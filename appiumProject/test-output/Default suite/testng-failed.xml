@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="appiumIOSTests.SafariWebTest">
+      <class name="appiumAndroidTests.ChromeBrowserTest">
         <methods>
-          <include name="iosFirstTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="openUrl"/>
         </methods>
-      </class> <!-- appiumIOSTests.SafariWebTest -->
+      </class> <!-- appiumAndroidTests.ChromeBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -70,7 +70,8 @@ public class ChromeWebTest {
 			driver.findElement(By.xpath("//input[@id='btnLogin']")).sendKeys(Keys.RETURN);
 			Thread.sleep(2000);
 			Reporter.log("=======Login Ended=======",true);
-		} catch (InterruptedException e) {
+		} 
+		catch (InterruptedException e) {
 			Reporter.log("=======loginToOrangeHR Failed=======",true);
 			System.out.println("Message is " + e.getMessage());
 			e.printStackTrace();
