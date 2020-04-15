@@ -15,6 +15,11 @@
  * 6. appActivity			//is related to the app you are testing 
  * 
  * http://127.0.0.1:4723/wd/hub
+ * 
+ * AndroidDriver - is for Android application and Android platforms
+ * IOSDriver - is for IOS application and IOS platforms
+ * AppiumDriver - is also for web applications and windows desktop
+ * WebDriver - is for web applications
  */
 
 package appiumAndroidTests;
@@ -23,10 +28,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
 
 public class CalculatorTest {
 	
-	//WebDriver driver;															//Can also use WebDriver or android driver
+	//WebDriver driver;															//Can also use WebDriver
+	//static AndroidDriver<MobileElement> driver;								//Can also use AndroidDriver
 	static AppiumDriver <MobileElement> driver;									//Driver for appium and adding an MobileElement
 
 	public static void main(String[] args) {
