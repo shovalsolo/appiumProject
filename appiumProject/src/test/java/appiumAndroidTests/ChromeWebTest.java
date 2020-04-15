@@ -17,7 +17,7 @@
  * http://127.0.0.1:4723/wd/hub
  * 
  * 
- * To run this test need to connect the device and run appium server or studio
+ * To run this test need to connect the device and run appium studio
  */
 
 
