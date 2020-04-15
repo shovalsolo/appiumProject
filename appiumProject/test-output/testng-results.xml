@@ -2,22 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
+      <![CDATA[=======Setup Started=======]]>
+    </line>
+    <line>
+      <![CDATA[=======Setup Ended=======]]>
+    </line>
+    <line>
       <![CDATA[=======Login Started=======]]>
     </line>
     <line>
       <![CDATA[=======Login Ended=======]]>
     </line>
+    <line>
+      <![CDATA[=======tearDown Started=======]]>
+    </line>
+    <line>
+      <![CDATA[=======tearDown Ended=======]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29910" started-at="2020-04-15T16:03:29 EDT" finished-at="2020-04-15T16:03:59 EDT">
+  <suite name="Default suite" duration-ms="29136" started-at="2020-04-15T16:16:32 EDT" finished-at="2020-04-15T16:17:01 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29910" started-at="2020-04-15T16:03:29 EDT" finished-at="2020-04-15T16:03:59 EDT">
+    <test name="Default test" duration-ms="29136" started-at="2020-04-15T16:16:32 EDT" finished-at="2020-04-15T16:17:01 EDT">
       <class name="appiumAndroidTests.ChromeBrowserTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:appiumAndroidTests.ChromeBrowserTest@536aaa8d]" name="setup" is-config="true" duration-ms="19435" started-at="2020-04-15T16:03:29 EDT" finished-at="2020-04-15T16:03:49 EDT">
+        <test-method status="PASS" signature="setup()[pri:0, instance:appiumAndroidTests.ChromeBrowserTest@536aaa8d]" name="setup" is-config="true" duration-ms="18491" started-at="2020-04-15T16:16:32 EDT" finished-at="2020-04-15T16:16:51 EDT">
           <reporter-output>
+            <line>
+              <![CDATA[=======Setup Started=======]]>
+            </line>
+            <line>
+              <![CDATA[=======Setup Ended=======]]>
+            </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="openUrl()[pri:0, instance:appiumAndroidTests.ChromeBrowserTest@536aaa8d]" name="openUrl" duration-ms="8359" started-at="2020-04-15T16:03:49 EDT" finished-at="2020-04-15T16:03:57 EDT">
+        <test-method status="PASS" signature="openUrl()[pri:0, instance:appiumAndroidTests.ChromeBrowserTest@536aaa8d]" name="openUrl" duration-ms="8643" started-at="2020-04-15T16:16:51 EDT" finished-at="2020-04-15T16:16:59 EDT">
           <reporter-output>
             <line>
               <![CDATA[=======Login Started=======]]>
@@ -27,8 +45,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:appiumAndroidTests.ChromeBrowserTest@536aaa8d]" name="tearDown" is-config="true" duration-ms="2084" started-at="2020-04-15T16:03:57 EDT" finished-at="2020-04-15T16:03:59 EDT">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:appiumAndroidTests.ChromeBrowserTest@536aaa8d]" name="tearDown" is-config="true" duration-ms="1970" started-at="2020-04-15T16:16:59 EDT" finished-at="2020-04-15T16:17:01 EDT">
           <reporter-output>
+            <line>
+              <![CDATA[=======tearDown Started=======]]>
+            </line>
+            <line>
+              <![CDATA[=======tearDown Ended=======]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- appiumAndroidTests.ChromeBrowserTest -->

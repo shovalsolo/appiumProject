@@ -17,6 +17,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -33,6 +34,7 @@ public class AndroidDriverInit {
 	@BeforeTest
 	public void setup() {	
 		try {
+			Reporter.log("=======Setup Started=======",true);
 			System.out.println("This is from setup method");
 			DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setCapability("deviceName", "LG-G2");					//Mobile device related
@@ -43,6 +45,7 @@ public class AndroidDriverInit {
 			URL url = new URL("http://127.0.0.1:4723/wd/hub");
 			
 			driver = new AppiumDriver<MobileElement>(url, cap);			//Passing DesiredCapabilities to the driver
+			Reporter.log("=======Setup Ended=======",true);
 		} 
 		catch (Exception e) {
 			System.out.println("Failed to pass DesiredCapabilities application did not started");
@@ -56,9 +59,11 @@ public class AndroidDriverInit {
 	public void tearDown() {
 		
 		try {
+			Reporter.log("=======tearDown Started=======",true);
 			System.out.println("This is from tearDown method");
 			driver.close();
 			driver.quit();
+			Reporter.log("=======tearDown Ended=======",true);
 		}
 		catch (Exception e) {
 			System.out.println("Failed at tearDown method");
