@@ -38,16 +38,18 @@ public class AndroidDriverInit extends extentReportsInit {				//extends extentRe
 			System.out.println("This is from setup method");
 			DesiredCapabilities cap = new DesiredCapabilities();
 			
-			//cap.setCapability("deviceName", "LG-G2");					//Mobile device related
-			//cap.setCapability("uidd", "LGD802c85901e2");				//Mobile device related
-			cap.setCapability("platformName", "Android");				//Mobile device related
-			//cap.setCapability("platformVersion", "5.0.2");				//Mobile device related
-			cap.setCapability("browserName", "chrome");					//Mobile device related will open the browser
+			//cap.setCapability("deviceName", "LG-G2");					//Mobile device LG-G2
+			//cap.setCapability("uidd", "LGD802c85901e2");				//Mobile device LG-G2
+			//cap.setCapability("platformVersion", "5.0.2");			//Mobile device LG-G2
 			
+			//cap.setCapability("deviceName", "ONEPLUS A3000");			//Mobile device ONEPLUS A3000 
+			//cap.setCapability("uidd", "65875de1");					//Mobile device ONEPLUS A3000 
 			
-			cap.setCapability("deviceName", "ONEPLUS A3000");			//Mobile device related
-			cap.setCapability("uidd", "65875de1");						//Mobile device related
+			cap.setCapability("uidd", "c67276d");						//Mobile device ONEPLUS A3000 Ortal Test
+			
 			cap.setCapability("platformVersion", "9");					//Mobile device related
+			cap.setCapability("platformName", "Android");				//Mobile device related
+			cap.setCapability("browserName", "chrome");					//Mobile device related will open the browser
 			
 			URL url = new URL("http://127.0.0.1:4723/wd/hub");
 			
