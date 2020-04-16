@@ -42,10 +42,14 @@ public class AndroidDriverInit extends extentReportsInit {				//extends extentRe
 			//cap.setCapability("uidd", "LGD802c85901e2");				//Mobile device LG-G2
 			//cap.setCapability("platformVersion", "5.0.2");			//Mobile device LG-G2
 			
-			//cap.setCapability("deviceName", "ONEPLUS A3000");			//Mobile device ONEPLUS A3000 
+			cap.setCapability("deviceName", "ONEPLUS A3000");			//Mobile device ONEPLUS A3000 
 			//cap.setCapability("uidd", "65875de1");					//Mobile device ONEPLUS A3000 
 			
 			cap.setCapability("uidd", "c67276d");						//Mobile device ONEPLUS A3000 Ortal Test
+			
+			//cap.setCapability("deviceName", "emulator-5554");			//Mobile device emulator-5554
+			//cap.setCapability("uidd", "emulator-5554");
+			//cap.setCapability("platformVersion", "6");					//Mobile device related
 			
 			cap.setCapability("platformVersion", "9");					//Mobile device related
 			cap.setCapability("platformName", "Android");				//Mobile device related
