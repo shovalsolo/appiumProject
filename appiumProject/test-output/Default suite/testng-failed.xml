@@ -5,9 +5,11 @@
     <classes>
       <class name="appiumAndroidTests.ChromeBrowserTest">
         <methods>
+          <include name="reportSetup"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="openUrl"/>
+          <include name="openUrlAndLogin"/>
+          <include name="reportTearDown"/>
         </methods>
       </class> <!-- appiumAndroidTests.ChromeBrowserTest -->
     </classes>
