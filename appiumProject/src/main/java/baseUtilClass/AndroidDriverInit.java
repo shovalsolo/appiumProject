@@ -48,11 +48,11 @@ public class AndroidDriverInit extends extentReportsInit {				//extends extentRe
 			cap.setCapability("uidd", "c67276d");						//Mobile device ONEPLUS A3000 Ortal Test
 			
 			//cap.setCapability("deviceName", "emulator-5554");			//Mobile device emulator-5554
-			//cap.setCapability("uidd", "emulator-5554");
-			//cap.setCapability("platformVersion", "6");					//Mobile device related
+			//cap.setCapability("uidd", "emulator-5554");				//Mobile device emulator-5554
+			//cap.setCapability("platformVersion", "6");				//Mobile device related
 			
-			cap.setCapability("platformVersion", "9");					//Mobile device related
-			cap.setCapability("platformName", "Android");				//Mobile device related
+			cap.setCapability("platformVersion", "9");					//Mobile device related version
+			cap.setCapability("platformName", "Android");				//Mobile device related general
 			cap.setCapability("browserName", "chrome");					//Mobile device related will open the browser
 			
 			URL url = new URL("http://127.0.0.1:4723/wd/hub");
