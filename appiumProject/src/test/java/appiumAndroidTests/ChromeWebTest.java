@@ -56,7 +56,7 @@ public class ChromeWebTest {
 		cap.setCapability("testName", testName);
 		cap.setCapability("uidd", "LGD802c85901e2");
 		cap.setBrowserName(MobileBrowserType.CHROMIUM);
-		driver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), cap);
+		driver = new AndroidDriver<AndroidElement>(new URL("http://localhost:4723/wd/hub"), cap);
 		driver.setLogLevel(Level.INFO);
 	}
 
